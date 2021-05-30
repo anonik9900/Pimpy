@@ -25,5 +25,12 @@
 
 &lt;h1 class="text-bg-transparent -bg-01">Text Example&lt;/h1&gt;
 </code>
+
+<h2>Border text class:</h2>
+<code>
+&lt;h1 class="text-bg-transparent -bg-08 -text-bwhite">Text Example&lt;/h1&gt;
+  
+&lt;h1 class="text-bg-transparent -bg-08 -text-bwhite-bold1">Text Example&lt;/h1&gt;
+  </code>
   
 </div>
