@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pimpy
+# Pimpy🚀
 :package: Simply css class which allows you to insert a background (for example an image) within a text
   
 <h1>Various Background powered by CSS3</h1>
