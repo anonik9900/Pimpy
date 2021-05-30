@@ -33,4 +33,9 @@
 &lt;h1 class="text-bg-transparent -bg-08 -text-bwhite-bold1">Text Example&lt;/h1&gt;
   </code>
   
+
+ 
+<h2>Change the background modyfing this paramaters</h2>
+<code>
+  
 </div>
