@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text-bg-transparent{
+  font-size: 13vw;
+  font-family: Poppins, Arial;
+  text-align: center;
+  background-image: url(../media/0.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/*BACKGROUND VARIABLES*/
+.-bg-01{
+  background-image: url(../media/1.jpg) !important;
+}
+.-bg-02{
+  background-image: url(../media/2.jpg) !important;
+}
+.-bg-03{
+  background-image: url(../media/3.jpg) !important;
+}
+.-bg-04{
+  background-image: url(../media/4.jpg) !important;
+}
+.-bg-05{
+  background-image: url(../media/5.jpg) !important;
+}
+.-bg-06{
+  background-image: url(../media/6.jpg) !important;
+}
+.-bg-07{
+  background-image: url(../media/7.jpg) !important;
+}
+.-bg-08{
+  background-image: url(../media/8.jpg) !important;
+}
+.-bg-09{
+  background-image: url(../media/9.jpg) !important;
+}
+.-bg-10{
+  background-image: url(../media/10.jpg) !important;
+}
+.-bg-11{
+  background-image: url(../media/11.jpg) !important;
+}
+.-bg-12{
+  background-image: url(../media/12.jpg) !important;
+}
+/*END BACKGROUND VARIABLES*/
+
+/*TEXT SHADOWS*/
+
+/*--------------------BLACK & BOLD ----------------------*/
+.-text-bblack{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+}
+/*-------------------- END BLACK & BOLD ----------------------*/
+
+
+/*-------------------- WHITE & BOLD ----------------------*/
+.-text-bwhite{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+}
+/*-------------------- END WHITE & BOLD ----------------------*/
+
+/*-------------------- RED & BOLD ----------------------*/
+.-text-bred{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: red;
+}
+/*-------------------- END RED & BOLD ----------------------*/
+/*END TEXT SHADOWS*/
