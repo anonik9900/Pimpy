@@ -36,6 +36,42 @@
 
  
 <h2>Change the background modyfing this paramaters</h2>
-<code>
+
+
+
+```diff
+
+First background : <h1 class="text-bg-transparent -bg-01">Text Example</h1>
   
+```  
+
+<img src="https://github.com/anonik9900/Pimpy/blob/main/guide/1b.jpg?raw=true">
+ 
+Change this:
+
+```diff
+- -bg-01
+```
+
+  
+From This:
+  
+```diff  
++ -bg-02  
+```
+
+
+And you Obatin this background:
+
+<img src="https://github.com/anonik9900/Pimpy/blob/main/guide/2b.jpg?raw=true">
+
+```dif   
+  
+Second background : <h1 class="text-bg-transparent -bg-02">Text Example</h1>
+
+```
+   
+
+  
+
 </div>
