@@ -1,0 +1,272 @@
+/*PIPMY V.1.02 BY anonik9900*/
+
+
+/*Getting start guide*/
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1)Text with bacground image:
+
+CSS CLASS:
+
+==========================================================================================================================================================================================================================
+
+.text-bg-transparent{
+  font-size: 13vw;
+  font-family: Poppins, Arial;
+  text-align: center;
+  background-image: url(../media/0.jpg); //You can change 0.jpg with the image that you prefer.
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+HTML INPUT:
+<h1 class="text-bg-transparent">Text Example</h1>
+
+=========================================================================================================================================================================================================================
+
+to change the backgroud with another default image you can use the Pimpy css's class .-bg-01 (for example)
+
+CSS CLASS:
+
+.-bg-01{
+  background-image: url(../media/1.jpg) !important;
+}
+.-bg-02{
+  background-image: url(../media/2.jpg) !important;
+}
+
+HTML INPUT:
+<h1 class="text-bg-transparent -bg-01">Text Example</h1>
+<h1 class="text-bg-transparent -bg-02">Text Example</h1>
+
+=============================================================================================================================================================================================================================
+
+Also with Pimpy you can add a border around the text with the Pimpy css class .-text-bblack (for example this class add a black text-border with 0.5px size)
+
+
+
+-text-bblack = black text border with 0.5px size
+-text-bblack-bold1 = black text border with 1px size
+-text-bblack-bold2 = black text border with 2px size
+-text-bblack-bold3 = black text border with 3px size
+-text-bblack-bold4 = black text border with 4px size
+
+-text-bwhitw = white text border with 0.5px size
+-text-bwhite-bold1 = white text border with 1px size
+-text-bwhite-bold2 = white text border with 2px size
+-text-bwhite-bold3 = white text border with 3px size
+-text-bwhite-bold4 = white text border with 4px size
+
+-text-bred = black text border with 0.5px size
+-text-bred-bold1 = red text border with 1px size
+-text-bred-bold2 = red text border with 2px size
+-text-bred-bold3 = red text border with 3px size
+-text-bred-bold4 = red text border with 4px size
+
+HTML INPUT:
+
+<!--Border text black -->
+<h1>text border class color: black with and without bolder class </h1>
+<h1 class="text-bg-transparent -bg-09 -text-bblack">Text Example</h1>
+<h1 class="text-bg-transparent -bg-09 -text-bblack-bold1">Text Example</h1>
+<h1 class="text-bg-transparent -bg-09 -text-bblack-bold2">Text Example</h1> With this for example Pimpy create a black text border with 2px size
+<h1 class="text-bg-transparent -bg-09 -text-bblack-bold3">Text Example</h1>
+<h1 class="text-bg-transparent -bg-09 -text-bblack-bold4">Text Example</h1>
+<!--End Border text black-->
+
+<!--Border text white -->
+<h1>text border class color: white with and without bolder class </h1>
+<h1 class="text-bg-transparent -bg-08 -text-bwhite">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bwhite-bold1">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bwhite-bold2">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bwhite-bold3">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bwhite-bold4">Text Example</h1>
+<!--End Border text white -->
+
+<!--Border text red -->
+<h1>text border class color: red with and without bolder class </h1>
+<h1 class="text-bg-transparent -bg-08 -text-bred">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bred-bold1">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bred-bold2">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bred-bold3">Text Example</h1>
+<h1 class="text-bg-transparent -bg-08 -text-bred-bold4">Text Example</h1>
+<!--End Border text red -->
+
+=============================================================================================================================================================================================================================
+
+Pimpy allow you to change the text font directly in html with his default css class
+
+Example in html with all fonts include with Pimpy:
+
+<!--Variable Fonts-->
+<h1>Pimpy text with other fonts family</h1>
+<h1 class="text-bg-transparent -bg-02 -font-Arial">Arial Font</h1><!--Arial Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-SansSerif">Sans Serif</h1><!--SansSerif Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Serif">Serif Font</h1><!--Serif Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins">Poppins Font</h1><!--Poppins Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Fantasy">Fantasy Font</h1><!--Fantasy Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Cursive">Cursive Font</h1><!--Cursive Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Inherit">Inherit Font</h1><!--Inherit Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Monospace">Monospace Font</h1><!--Monospace Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-OpenSans">OpenSans Font</h1><!--OpenSans Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Limelight">Limelight Font</h1><!--Limelight Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Roboto">Roboto Font</h1><!--Roboto Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-SigmarOne">SigmarOne Font</h1><!--SigmarOne Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Zcool">Zcool Font</h1><!--Zcool Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-BebasN">BebasNeue Font</h1><!--BebasN Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-SuezOne">SuezOne Font</h1><!--SuezOne Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Teko">Teko Font</h1><!--Teko Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Anton">Anton Font</h1><!--Anton Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-DancingS">DancingS Font</h1><!--DancingS Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Lobster">Lobster Font</h1><!--Lobster Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Pattaya">Pattaya Font</h1><!--Pattaya Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-FjallaOne">FjallaOne Font</h1><!--FjallaOne Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Pacifico">Pacifico Font</h1><!--Pacifico Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-IndieFlower">IndieFlower Font</h1><!--IndieFlower Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-ShadowsIL">ShadowsIL Font</h1><!--ShadowsIL Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-AbrilF">AbrilF Font</h1><!--AbrilF Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Staatliches">Staatliches Font</h1><!--Staatliches Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-FredokaOne">FredokaOne Font</h1><!--FredokaOne Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-AlfaSlabOne">AlfaSlabOne Font</h1><!--AlfaSlabOne Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-Cinzel">Cinzel Font</h1><!--Cinzel Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-LondrinaS">LondrinaS Font</h1><!--LondrinaS Fonts-->
+<h1 class="text-bg-transparent -bg-02 -font-ArchivoBlack">ArchivoBlack Font</h1><!--ArchivoBlack Fonts-->
+<!--End Variable Fonts-->
+
+=============================================================================================================================================================================================================================
+
+Changing Text Size:
+
+Pimpy with the v.1.02 now allow you to change the font-size directly in html with the .-fsize class:
+
+Some Examples in html:
+
+<!--Variable Fonts with variable font size-->
+<h1>Variable Fonts with variable font size</h1>
+<h2>with some px values</h2>
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-20px">Poppins Font</h1><!--Poppins Fonts & Font size 20px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-40px">Poppins Font</h1><!--Poppins Fonts & Font size 40px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-66px">Poppins Font</h1><!--Poppins Fonts & Font size 66px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-82px">Poppins Font</h1><!--Poppins Fonts & Font size 82px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-98px">Poppins Font</h1><!--Poppins Fonts & Font size 98px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-108px">Poppins Font</h1><!--Poppins Fonts & Font size 108px-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-110px">Poppins Font</h1><!--Poppins Fonts & Font size 110px (110 is the max valure for now with px and vw)-->
+<h2>with some vw values</h2>
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-20vw">Poppins Font</h1><!--Poppins Fonts & Font size 20vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-10vw">Poppins Font</h1><!--Poppins Fonts & Font size 10vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-5vw">Poppins Font</h1><!--Poppins Fonts & Font size 5vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-6vw">Poppins Font</h1><!--Poppins Fonts & Font size 6vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-8vw">Poppins Font</h1><!--Poppins Fonts & Font size 8vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-9vw">Poppins Font</h1><!--Poppins Fonts & Font size 9vw-->
+<h1 class="text-bg-transparent -bg-02 -font-Poppins -fsize-12vw">Poppins Font</h1><!--Poppins Fonts & Font size 12vw (110 is the max valure for now with px and vw)-->
+<!--End Variable Fonts with variable font size-->
+
+The size aviable are in the .css class, you can edit and add your favourite size:
+
+CSS CLASS EXAMPLES:
+
+/*---------Font Size Variables------- */
+
+.-fsize-2px{
+  font-size: 2px !important;
+}
+.-fsize-4px{
+  font-size: 4px !important; With this you can set the font-size to: 4px
+}
+.-fsize-5px{
+  font-size: 5px !important;
+}
+.-fsize-6px{
+  font-size: 6px !important;
+}
+.-fsize-7px{
+  font-size: 7px !important;
+}
+.-fsize-8px{
+  font-size: 8px !important;
+}
+.-fsize-9px{
+  font-size: 9px !important;
+}
+.-fsize-10px{
+  font-size: 10px !important;
+}
+.-fsize-12px{
+  font-size: 12px !important;
+}
+
+/*---------End Font Size Variables----------*/
+
+OR
+
+/*Font Size Variables VIEWPORT ----------------------*/
+.-fsize-2vw{
+  font-size: 2vw !important;
+}
+.-fsize-4vw{
+  font-size: 4vw !important;
+}
+.-fsize-5vw{
+  font-size: 5vw !important;
+}
+.-fsize-6vw{
+  font-size: 6vw !important; With this you can set the font-size to: 6vw
+}
+.-fsize-7vw{
+  font-size: 7vw !important;
+}
+.-fsize-8vw{
+  font-size: 8vw !important;
+}
+.-fsize-9vw{
+  font-size: 9vw !important;
+}
+.-fsize-10vw{
+  font-size: 10vw !important;
+}
+.-fsize-12vw{
+  font-size: 12vw !important;
+}
+
+/*---------End Font Size Variables----------*/
+
+
+=============================================================================================================================================================================================================================
+
+Parallax Background Effect:
+
+Pimpy with the newest update 1.02 allow you to include the parallax effect inside your text combinated with the background's Pimpy text image.
+
+It works with the .-bg-parallax css class
+
+HTML EXAMPLE:
+
+<h1 class="text-bg-transparent -bg-08 -bg-parallax">Text Example</h1>
+
+Pimpy is very fast and responsive , so you can combine all of options that Pimpy's css class offer to create a Great Text with the best visual effects combination.
+
+
+
+See this combo for example:
+
+
+<!--Combination of all possibilities -->
+
+<h1 class="text-bg-transparent -bg-09 -font-Poppins -fsize-18vw -bg-parallax -text-bblack-bold1">Text Example</h1> <!--Font: Poppins + font-size: 18vw + Parallax Background + Black-Text-border: 1px -->
+
+<h1 class="text-bg-transparent -bg-10 -font-BebasN -fsize-12vw -bg-parallax">Text Example</h1><!--Font: Bebas-Neue + font-size: 12vw + Parallax Background -->
+
+<h1 class="text-bg-transparent -bg-11 -font-Pacifico -fsize-108px -bg-parallax -text-bblack-bold2">Text Example</h1><!--Font: Pacifico + font-size: 108px + Parallax Background + Black-Text-border: 2px -->
+
+<h1 class="text-bg-transparent -bg-12 -font-Cinzel -fsize-10vw -bg-parallax -text-bwhite">Text Example</h1><!--Font: Cinzel + font-size: 10vw + Parallax Background + White-Text-border: 0-5px -->
+
+<!--End Combo-->
+
+
+=============================================================================================================================================================================================================================
+
+
+To see all of these example please open the example.html files
+
