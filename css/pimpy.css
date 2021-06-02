@@ -1,4 +1,30 @@
+
+/*Import FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+/*End Import Fonts*/
 
 html,body{
   height: 100%;
@@ -17,6 +43,7 @@ html,body{
   background-clip: text;
   color: transparent;
 }
+
 
 
 /*BACKGROUND VARIABLES*/
@@ -130,3 +157,107 @@ html,body{
 }
 /*-------------------- END RED & BOLD ----------------------*/
 /*END TEXT SHADOWS*/
+
+
+
+/*START FONTS VARIABLES*/
+
+/*---------------------- Another Font ------------------------------*/
+
+.-font-Arial{
+  font-family: Arial !important;
+}
+.-font-SansSerif{
+  font-family: sans-serif !important;
+}
+.-font-Serif{
+  font-family: serif !important;
+}
+.-font-Poppins{
+  font-family: Poppins !important;
+}
+.-font-Fantasy{
+  font-family: fantasy !important;
+}
+.-font-Cursive{
+  font-family: cursive !important;
+}
+.-font-Inherit{
+  font-family: inherit !important;
+}
+.-font-Monospace{
+  font-family: monospace !important;
+}
+.-font-OpenSans{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.-font-Limelight{
+  font-family: 'Limelight', cursive !important;
+}
+.-font-Roboto{
+  font-family: 'Roboto', sans-serif !important;
+}
+.-font-SigmarOne{
+  font-family: 'Sigmar One', cursive !important;
+}
+.-font-Zcool{
+  font-family: 'ZCOOL KuaiLe', cursive !important;
+}
+.-font-BebasN{
+  font-family: 'Bebas Neue', cursive !important;
+}
+.-font-SuezOne{
+  font-family: 'Suez One', serif !important;
+}
+.-font-Teko{
+  font-family: 'Teko', sans-serif !important;
+}
+.-font-Anton{
+  font-family: 'Anton', sans-serif !important;
+}
+.-font-DancingS{
+  font-family: 'Dancing Script', cursive !important;
+}
+.-font-Lobster{
+  font-family: 'Lobster', cursive !important;
+}
+.-font-Pattaya{
+  font-family: 'Pattaya', sans-serif !important;
+}
+.-font-FjallaOne{
+  font-family: 'Fjalla One', sans-serif !important;
+}
+.-font-Pacifico{
+  font-family: 'Pacifico', cursive !important;
+}
+.-font-IndieFlower{
+  font-family: 'Indie Flower', cursive !important;
+}
+.-font-ShadowsIL{
+  font-family: 'Shadows Into Light', cursive !important;
+}
+.-font-AbrilF{
+  font-family: 'Abril Fatface', cursive !important;
+}
+.-font-Staatliches{
+  font-family: 'Staatliches', cursive !important;
+}
+.-font-FredokaOne{
+  font-family: 'Fredoka One', cursive !important;
+}
+.-font-AlfaSlabOne{
+  font-family: 'Alfa Slab One', cursive !important;
+}
+.-font-Cinzel{
+  font-family: 'Cinzel', serif !important;
+}
+.-font-LondrinaS{
+  font-family: 'Londrina Solid', cursive !important;
+}
+.-font-ArchivoBlack{
+  font-family: 'Archivo Black', sans-serif !important;
+}
+
+/*---------------------- end Another Font --------------------------*/
+
+/*END FONTS VARIABLES*/
